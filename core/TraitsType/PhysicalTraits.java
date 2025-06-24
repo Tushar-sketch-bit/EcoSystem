@@ -1,4 +1,4 @@
-package core;
+package core.TraitsType;
 import java.util.ArrayList;
 
 public abstract class PhysicalTraits{

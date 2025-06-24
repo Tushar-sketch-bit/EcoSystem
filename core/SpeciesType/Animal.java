@@ -1,4 +1,7 @@
-package core;
+package core.SpeciesType;
+import core.Species;
+import core.TraitsType.PhysicalTraits;
+import core.TraitsType.TechnicalTraits;
 import core.actions.CanDo.*;
 
 public abstract class Animal extends Species<TechnicalTraits<Integer>> implements CanHunt,CanFly,CanSwim{

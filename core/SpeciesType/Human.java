@@ -1,6 +1,10 @@
-package core;
+package core.SpeciesType;
 
- public abstract class Human extends Species<TechnicalTraits<Integer>>{
+import core.Species;
+import core.TraitsType.PhysicalTraits;
+import core.TraitsType.TechnicalTraits;
+
+public abstract class Human extends Species<TechnicalTraits<Integer>>{
     private PhysicalTraits traits2;
    public Human(String name,TechnicalTraits<Integer> traits,PhysicalTraits traits2){
         super(name,traits);

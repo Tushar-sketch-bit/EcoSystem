@@ -1,6 +1,6 @@
-package core;
+package core.TraitsType;
 
-public abstract class TechnicalTraits<T> {
+public abstract class TechnicalTraits<T extends Number> {
    public T strength;
    public T speed;
    public T intelligence;
