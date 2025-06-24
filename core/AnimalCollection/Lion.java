@@ -1,6 +1,8 @@
 package core.AnimalCollection;
-import core.*;
+
 import core.AnimalTypes.Mammal;
+import core.TraitsType.PhysicalTraits;
+import core.TraitsType.TechnicalTraits;
 
  public class Lion extends Mammal {
    public Lion(String name,TechnicalTraits<Integer> traits,PhysicalTraits traits2){

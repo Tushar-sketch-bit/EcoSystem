@@ -1,5 +1,8 @@
 package core.AnimalTypes;
-import core.*;
+
+import core.SpeciesType.Animal;
+import core.TraitsType.PhysicalTraits;
+import core.TraitsType.TechnicalTraits;
 import core.actions.CanDo.*;
 
 public abstract class Reptile extends Animal implements CanHunt.softHunt{
