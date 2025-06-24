@@ -101,6 +101,12 @@ public interface CanHunt{
         }
         
     }
+    interface MayHunt extends CanHunt{
+        default void hunt(String name){
+            System.out.println(name+" may hunt");
+        }
+        
+    }
 
 }
 
