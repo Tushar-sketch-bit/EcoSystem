@@ -7,4 +7,7 @@ public abstract class PhysicalTraits{
    public PhysicalTraits(ArrayList<String> Physicalfeatures){
        this.Physicalfeatures=Physicalfeatures;
     }
+    public ArrayList<String> getPhysicalfeatures(){
+        return Physicalfeatures;
+    }
 }
