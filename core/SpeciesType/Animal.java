@@ -1,5 +1,4 @@
 package core.SpeciesType;
-
 import core.Species;
 import core.TraitsType.PhysicalTraits;
 import core.TraitsType.TechnicalTraits;
