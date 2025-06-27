@@ -5,7 +5,7 @@ import core.TraitsType.TechnicalTraits;
 import core.actions.CanDo.*;
 
 public abstract class Animal extends Species<TechnicalTraits<Integer>> implements CanHunt,CanFly,CanSwim{
-    private PhysicalTraits traits2;
+    private final PhysicalTraits traits2;
    public Animal(String name,TechnicalTraits<Integer> traits,PhysicalTraits traits2){
         super(name,traits);
         this.traits2=traits2;

@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import simulation.*;
 import core.AnimalCollection.*;
 
+
 public class Base {
     public static void main(String[] args) {
         Integer strength=10,Speed=10,Intelligence=10,Agility=10;
@@ -15,6 +16,9 @@ public class Base {
         Lion lion=AnimalInitializer.createLion(Physicalfeatures,strength,Speed,Intelligence,Agility);
         lion.hunt("Lion");
         lion.SpeciesInfo();
+
+        
+        
     }
     
 }
